@@ -1,0 +1,267 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1768602124545524202
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1768602124545524203}
+  m_Layer: 0
+  m_Name: "\u0441\u043F\u0430\u0432\u043D \u043F\u0443\u043B\u0438"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1768602124545524203
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768602124545524202}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0, z: -2.15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1768602124908897743}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1768602124908897732
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1768602124908897743}
+  - component: {fileID: 1768602124908897742}
+  - component: {fileID: 1768602124908897737}
+  - component: {fileID: 1768602124908897736}
+  - component: {fileID: 1768602124908897739}
+  - component: {fileID: 1768602124908897738}
+  - component: {fileID: 1768602124908897733}
+  m_Layer: 0
+  m_Name: "\u0431\u043E\u043C\u0436_1"
+  m_TagString: NPC
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1768602124908897743
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768602124908897732}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: -25.64, y: 1.29, z: 1.4399948}
+  m_LocalScale: {x: 0.19336963, y: 0.2369204, z: 0.26617917}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1768602124545524203}
+  m_Father: {fileID: 0}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 90, y: 90, z: -90}
+--- !u!33 &1768602124908897742
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768602124908897732}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1768602124908897737
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768602124908897732}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 1aa51b64135a93b4f9a3b6e7bcae779b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1768602124908897736
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768602124908897732}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.79, y: 2, z: 9.070949}
+  m_Center: {x: -0.2545249, y: 3.3711234e-16, z: 0.31277937}
+--- !u!54 &1768602124908897739
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768602124908897732}
+  serializedVersion: 2
+  m_Mass: 50
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!114 &1768602124908897738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768602124908897732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b004e7b1bc9bf347b92e2bf55ad95ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTag: Player
+  lookBackwards: 0
+  useFixedRotation: 0
+  fixedRotation: {x: -90, y: 0, z: 0}
+--- !u!114 &1768602124908897733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768602124908897732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73d7d4c1153fa8049a047d88747b5d8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npcRenderer: {fileID: 1768602124908897737}
+  eyePoint: {fileID: 1768602124545524203}
+  firePoint: {fileID: 1768602124545524203}
+  playerTarget: {fileID: 0}
+  playerTag: Player
+  npcTag: NPC
+  idleMaterial: {fileID: 2100000, guid: 1aa51b64135a93b4f9a3b6e7bcae779b, type: 2}
+  combatMaterial: {fileID: 2100000, guid: ca35d52428f8ebb4d8df331502972522, type: 2}
+  fireMaterial: {fileID: 2100000, guid: 6e3407cc2d4c26c49b5e3dc0d1047ff5, type: 2}
+  damageMaterial: {fileID: 2100000, guid: f9f8341049d31c64d9de38616c0640ad, type: 2}
+  visionRadius: 12
+  visionBlockLayers:
+    serializedVersion: 2
+    m_Bits: 129
+  minDistance: 1
+  maxDistance: 2
+  moveSpeed: 5
+  chaseSpeed: 8
+  rotationSpeed: 6
+  decisionInterval: 1.5
+  standChance: 0.4
+  strafeChance: 0.45
+  alwaysApproachDistance: 12
+  searchDuration: 5
+  dodgeSmoothness: 0.85
+  dodgeStrength: 1.4
+  strafeChangeIntervalMin: 0.4
+  strafeChangeIntervalMax: 1.2
+  fleeHealthThreshold: 30
+  fleeChance: 0.5
+  fleeSpeed: 6
+  fleeStopDistance: 20
+  obstacleLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  obstacleCheckDistance: 1.5
+  fleeDuration: 8
+  fireRate: 1.8
+  fireMaterialDuration: 0.1
+  shootRange: 2
+  minBulletDamage: 6
+  maxBulletDamage: 12
+  missChanceAtMaxRange: 0.6
+  damageMultiplierVsNPC: 8
+  bulletHitLayers:
+    serializedVersion: 2
+    m_Bits: 129
+  maxHealth: 400
+  damageFlashDuration: 0.1
+  corpsePrefab: {fileID: 5950199158000767504, guid: f8c7932f993ab9749abcf5a961484e5d, type: 3}
+  spawnCorpseOnDeath: 1
+  destroyDelay: 0.05
+  destroyDelayAfterDeath: 0.1
+  dropPrefabs: []
+  dropChance: 0.4
+  dropRadius: 1.5
+  dropUpForce: 3
+  dropSideForce: 2
+  dropLifetime: 0
+  combatPhrases:
+  - {fileID: 8300000, guid: d6ba2320d3609ca41a47deef07df3434, type: 3}
+  - {fileID: 8300000, guid: f485c193c682ea24eae458380b3e249b, type: 3}
+  - {fileID: 8300000, guid: 4f975af20c5dcc04daac1aa84a9774c0, type: 3}
+  phraseInterval: 8
+  phraseVolume: 0.5
+  minPhrasePitch: 0.9
+  maxPhrasePitch: 1
+  deathPhrases:
+  - {fileID: 8300000, guid: 9389d69c9a4e7f74dba3f6b191fbb10a, type: 3}
+  - {fileID: 8300000, guid: 9389d69c9a4e7f74dba3f6b191fbb10a, type: 3}
+  - {fileID: 8300000, guid: 9389d69c9a4e7f74dba3f6b191fbb10a, type: 3}
+  deathPhraseVolume: 0.4
+  minDeathPhrasePitch: 0.95
+  maxDeathPhrasePitch: 1.05
+  shootSound: {fileID: 8300000, guid: b98d0f3858881424e9e9c1e75e0e0432, type: 3}
+  shootVolume: 0.3
+  minShootPitch: 0.9
+  maxShootPitch: 1.1
+  damageSound: {fileID: 8300000, guid: 9389d69c9a4e7f74dba3f6b191fbb10a, type: 3}
+  damageVolume: 0.4
+  minDamagePitch: 0.9
+  maxDamagePitch: 1.1
+  deathSound: {fileID: 8300000, guid: 9389d69c9a4e7f74dba3f6b191fbb10a, type: 3}
+  deathVolume: 0.6
+  minDeathPitch: 0.9
+  maxDeathPitch: 1.1
+  maxHearDistance: 25
+  soundFalloff: 1
+  debugLogs: 0
